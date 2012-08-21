@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2D573C15E3DB1D00AA32F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2D573B15E3DB1D00AA32F6 /* UIKit.framework */; };
+		DB2D573E15E3DB1D00AA32F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2D573D15E3DB1D00AA32F6 /* Foundation.framework */; };
+		DB2D574015E3DB1D00AA32F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2D573F15E3DB1D00AA32F6 /* CoreGraphics.framework */; };
+		DB2D574315E3DB1D00AA32F6 /* ESLPodcast_Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = DB2D574215E3DB1D00AA32F6 /* ESLPodcast_Prefix.pch */; };
+		DB2D574715E3DB1D00AA32F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D574615E3DB1D00AA32F6 /* AppDelegate.m */; };
+		DB2D574915E3DB1D00AA32F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D574815E3DB1D00AA32F6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB2D573715E3DB1D00AA32F6 /* ESLPodcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESLPodcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2D573B15E3DB1D00AA32F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB2D573D15E3DB1D00AA32F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB2D573F15E3DB1D00AA32F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB2D574215E3DB1D00AA32F6 /* ESLPodcast_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ESLPodcast_Prefix.pch; path = src/ESLPodcast_Prefix.pch; sourceTree = "<group>"; };
+		DB2D574515E3DB1D00AA32F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = "<group>"; };
+		DB2D574615E3DB1D00AA32F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = "<group>"; };
+		DB2D574815E3DB1D00AA32F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		DB2D574B15E3DB1D00AA32F6 /* ESLPodcast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ESLPodcast-Info.plist"; path = "resources/ESLPodcast-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2D573415E3DB1D00AA32F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2D573C15E3DB1D00AA32F6 /* UIKit.framework in Frameworks */,
+				DB2D573E15E3DB1D00AA32F6 /* Foundation.framework in Frameworks */,
+				DB2D574015E3DB1D00AA32F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2D572C15E3DB1D00AA32F6 = {
+			isa = PBXGroup;
+			children = (
+				DB2D574115E3DB1D00AA32F6 /* ESLPodcast */,
+				DB2D573A15E3DB1D00AA32F6 /* Frameworks */,
+				DB2D573815E3DB1D00AA32F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2D573815E3DB1D00AA32F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D573715E3DB1D00AA32F6 /* ESLPodcast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2D573A15E3DB1D00AA32F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D573B15E3DB1D00AA32F6 /* UIKit.framework */,
+				DB2D573D15E3DB1D00AA32F6 /* Foundation.framework */,
+				DB2D573F15E3DB1D00AA32F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2D574115E3DB1D00AA32F6 /* ESLPodcast */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D574215E3DB1D00AA32F6 /* ESLPodcast_Prefix.pch */,
+				DB2D574415E3DB1D00AA32F6 /* Source */,
+				DB2D574A15E3DB1D00AA32F6 /* Resources */,
+			);
+			path = ESLPodcast;
+			sourceTree = "<group>";
+		};
+		DB2D574415E3DB1D00AA32F6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D574515E3DB1D00AA32F6 /* AppDelegate.h */,
+				DB2D574615E3DB1D00AA32F6 /* AppDelegate.m */,
+				DB2D574815E3DB1D00AA32F6 /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DB2D574A15E3DB1D00AA32F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D574B15E3DB1D00AA32F6 /* ESLPodcast-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2D573615E3DB1D00AA32F6 /* ESLPodcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2D574E15E3DB1D00AA32F6 /* Build configuration list for PBXNativeTarget "ESLPodcast" */;
+			buildPhases = (
+				DB2D573315E3DB1D00AA32F6 /* Sources */,
+				DB2D573415E3DB1D00AA32F6 /* Frameworks */,
+				DB2D573515E3DB1D00AA32F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESLPodcast;
+			productName = ESLPodcast;
+			productReference = DB2D573715E3DB1D00AA32F6 /* ESLPodcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2D572E15E3DB1D00AA32F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = DB2D573115E3DB1D00AA32F6 /* Build configuration list for PBXProject "ESLPodcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB2D572C15E3DB1D00AA32F6;
+			productRefGroup = DB2D573815E3DB1D00AA32F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2D573615E3DB1D00AA32F6 /* ESLPodcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2D573515E3DB1D00AA32F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2D574315E3DB1D00AA32F6 /* ESLPodcast_Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2D573315E3DB1D00AA32F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2D574715E3DB1D00AA32F6 /* AppDelegate.m in Sources */,
+				DB2D574915E3DB1D00AA32F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB2D574C15E3DB1D00AA32F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2D574D15E3DB1D00AA32F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB2D574F15E3DB1D00AA32F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESLPodcast/src/ESLPodcast_Prefix.pch;
+				INFOPLIST_FILE = "ESLPodcast/resources/ESLPodcast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB2D575015E3DB1D00AA32F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESLPodcast/src/ESLPodcast_Prefix.pch;
+				INFOPLIST_FILE = "ESLPodcast/resources/ESLPodcast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2D573115E3DB1D00AA32F6 /* Build configuration list for PBXProject "ESLPodcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2D574C15E3DB1D00AA32F6 /* Debug */,
+				DB2D574D15E3DB1D00AA32F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2D574E15E3DB1D00AA32F6 /* Build configuration list for PBXNativeTarget "ESLPodcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2D574F15E3DB1D00AA32F6 /* Debug */,
+				DB2D575015E3DB1D00AA32F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2D572E15E3DB1D00AA32F6 /* Project object */;
+}
